@@ -53,7 +53,7 @@
 \begin{equation}
         \mathcal{L} = ||\mathcal{R} + \mathcal{R}_{GT}||^2,
 \end{equation}
-where $\mathcal{R}$ is the predicted response map (as shown in \cref{fig:2a}) and $\mathcal{R}_{GT}$ is the ground truth response map.
+where $\mathcal{R}$ is the predicted response map (as shown in Fig. 2a) and $\mathcal{R}_{GT}$ is the ground truth response map.
 \section{Experiments}
 The main motivation of our work is to develop a motion blur aware local feature detector via deep networks, since many state-of-the-art methods for a sharp image have been proposed and achieved impressive performance. There is no existing dataset to evaluate local feature detectors on motion blurred images. We thus create a training dataset via a publicly available single image deblurring dataset, \textit{i.e.} the GoPro dataset from Nah \textit{et al.} [40] which has paired sharp and
 blurred images. To evaluate our method, we generate a synthetic dataset via HPatches dataset [5] , which is commonly used for local feature evaluations. HPatches dataset is different from the GoPro dataset, and it can thus also reflect the generalization performance of our method. We therefore mainly use this dataset for evaluation.
